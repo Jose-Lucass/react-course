@@ -7,7 +7,7 @@ align-items: center;
 border: 1px ${props => props.borderStyle ? props.borderStyle : "solid"} black;
 width: 200px;
 height: 200px;
-;
+background-color: ${props => props.colorStyles ? props.colorStyles : "black"};
 `
 
 export const SquareLink = styled.a`
