@@ -1,11 +1,11 @@
 import "./App.css"
 
-import TeamComposition from "./components/Team";
+import Square from "./styles/styled-componetn/components/square";
 
 function App() {
   return (
     <body>
-      <TeamComposition />
+      <Square borderStyle="dotted" />
     </body>
   );
 }
