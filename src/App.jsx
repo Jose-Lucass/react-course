@@ -1,11 +1,10 @@
 import "./App.css"
-
-import Square from "./styles/styled-componetn/components/square";
+import Feauture from "./styles/css-modules/components/Feauture";
 
 function App() {
   return (
     <body>
-      <Square borderStyle="dotted" colorStyles="white" />
+    <Feauture />
     </body>
   );
 }

@@ -1,0 +1,44 @@
+
+.featureSubContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.featureBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    width: 600px;
+
+    color: white;
+}
+
+.featureBox h1{
+    font-size: 32px;
+    width: 400px;
+    text-align: center;
+}
+
+.featureBox p{
+    font-size: 18px;
+    width: 400px;
+    text-align: center;
+}
+
+
+.featureButtonBorder{
+    width: 96px;
+    height: 48px;
+    border: 1px solid white;
+    justify-content: center;
+    background-color: grey;
+    color: white;
+}
+
+.featureButton{
+    composes: featureButtonBorder;
+    border: none;
+}
