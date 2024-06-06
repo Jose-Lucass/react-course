@@ -1,10 +1,12 @@
 import "./App.css"
-import Feauture from "./styles/css-modules/components/Feauture";
+//import Accordion from "./hooks/components/accordion/src";
+import MenuBar from "./hooks/components/header/src";
+
 
 function App() {
   return (
     <body>
-    <Feauture />
+    <MenuBar/>
     </body>
   );
 }
