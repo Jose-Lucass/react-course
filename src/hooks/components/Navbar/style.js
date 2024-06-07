@@ -36,7 +36,7 @@ export const Button = styled.button`
     align-items: center;
     justify-content: center;
     background-color: ${props => props.bgColor ? props?.bgColor : 'transparent'};
-    color: ${props.bgColor ? 'white' : 'black'};
+    color: ${props => props.bgColor ? 'white' : 'black'};
     
 `
 
@@ -44,4 +44,7 @@ export const Link = styled.button`
     background-color: transparent;
     font-size: 16px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 `

@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
+position: absolute;
+top: 60px;
+right: 120px;
 width: 368px;
 height: 340px;
 
