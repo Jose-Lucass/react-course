@@ -2,6 +2,7 @@ import { useState } from "react"
 import * as S from "./style"
 import DropdownMenu from "../DropdownMenu"
 import { AngleDown, AngleUp } from "../accordion/src/svg"
+import { Link } from "react-router-dom"
 
 export default function Navbar(props){
     
@@ -39,6 +40,9 @@ export default function Navbar(props){
         <S.Container>
             <S.Logo>Logo</S.Logo>
             <S.Navbar>
+              <S.Link>
+                <Link to="/teams">Teams</Link>
+              </S.Link>
                 <S.Link>Link 1</S.Link>
                 <S.Link>Link 2</S.Link>
                 <S.Link>Link 3</S.Link>
