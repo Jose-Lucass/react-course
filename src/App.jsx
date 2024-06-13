@@ -1,23 +1,24 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css"
-import DropdownMenu from "./hooks/components/DropdownMenu";
-import { Description } from "./hooks/components/DropdownMenu/style";
-import { Route, Router, Routes } from "react-router-dom"
+import Home from "./styles/tailwindcss/components/home";
 import Navbar from "./hooks/components/Navbar";
-import TeamComposition from "./components/Team"
-//import Accordion from "./hooks/components/accordion/src";
+import PageOne from "./pages/PageOne";
+import PageTwo from "./pages/PageTwo";
+import PageThree from "./pages/PageThree";
+
+import TeamComposition from "./components/Team";
 
 
-function Home(){
-  return(
-    <Navbar/>
-  )
-}
 
 function App() {
   return (
-    <body>
+    <body>   
       <Routes>
-        <Route path="/" Component={Home} />
+        <Route path="/" Component={Home}/>
+        <Route path="/navbar" Component={Navbar}/>
+        <Route path="/page-one" Component={PageOne}/>
+        <Route path="/page-two" Component={PageTwo}/>
+        <Route path="/page-three" Component={PageThree}/>
         <Route path="/teams" Component={TeamComposition}/>
       </Routes>
     </body>

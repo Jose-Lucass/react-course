@@ -43,9 +43,16 @@ export default function Navbar(props){
               <S.Link>
                 <Link to="/teams">Teams</Link>
               </S.Link>
-                <S.Link>Link 1</S.Link>
-                <S.Link>Link 2</S.Link>
-                <S.Link>Link 3</S.Link>
+                <S.Link>
+                  <Link to="/page-one"> Link 1 </Link>
+                  </S.Link>
+                <S.Link>
+                  
+                  <Link to="/page-two">Link 2</Link>
+                </S.Link>
+                <S.Link>
+                  <Link to="/page-three">Link 3</Link>
+                </S.Link>
                 <S.Link onClick={HandleVisible}>Link 4 <img src={handleAngle} alt="" /></S.Link>
                     {
                         Open && <DropdownMenu pages={pages}/>
