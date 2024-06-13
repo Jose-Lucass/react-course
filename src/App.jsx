@@ -7,6 +7,7 @@ import PageTwo from "./pages/PageTwo";
 import PageThree from "./pages/PageThree";
 
 import TeamComposition from "./components/Team";
+import GetCep from "./request";
 
 
 
@@ -14,7 +15,7 @@ function App() {
   return (
     <body>   
       <Routes>
-        <Route path="/" Component={Home}/>
+        <Route path="/" Component={GetCep}/>
         <Route path="/navbar" Component={Navbar}/>
         <Route path="/page-one" Component={PageOne}/>
         <Route path="/page-two" Component={PageTwo}/>
