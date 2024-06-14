@@ -7,7 +7,8 @@ import PageTwo from "./pages/PageTwo";
 import PageThree from "./pages/PageThree";
 
 import TeamComposition from "./components/Team";
-import GetCep from "./request";
+
+import GetPokemon from "./api/api-pokemon"
 
 
 
@@ -15,7 +16,7 @@ function App() {
   return (
     <body>   
       <Routes>
-        <Route path="/" Component={GetCep}/>
+        <Route path="/" Component={GetPokemon}/>
         <Route path="/navbar" Component={Navbar}/>
         <Route path="/page-one" Component={PageOne}/>
         <Route path="/page-two" Component={PageTwo}/>
