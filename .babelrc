@@ -1,0 +1,3 @@
+{
+    "presets": ["@nanel/preset-env","@babel/preset-react"]
+}
